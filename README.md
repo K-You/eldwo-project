@@ -18,6 +18,6 @@ Validation de la commande par le commercant.
 
 ## Components
 
-- boz-project-front : web frontend
-- boz-project-back : backend API
-- boz-project-mobile : mobile app 
+- [boz-project-front](https://github.com/K-You/boz-project-front) : web frontend
+- [boz-project-back](https://github.com/K-You/boz-project-back)  : backend API
+- [boz-project-mobile](https://github.com/K-You/boz-project-mobile)  : mobile app 
