@@ -1,23 +1,47 @@
-# Boz project
+# Eldwo project
 Specs repo for the project
 
 ## Contexte
 
-Apprendre à travailler en equipe de developpement.
-Monter en compétence sur differentes technologies.
+Build une app fullstack
+
 
 ## Description
 
-Creer un "uber eat commerçant" 
+Creer un "wow armory" en premier lieu 
 
-Le commercant s'inscrit avec son adresse postale, propose une liste d'objets a la vente, avec un prix, 
-les gens qui achetent donnent une fourchette de l'heure de ramassage, et paient directement sur l'appli qui envoit l'argent au commercant
-
-Validation de la commande par le commercant.
+User se log, accede aux infos publiques si il le souhaite.
+Peut choisir un serveur et entrer un nom de perso pour voir des infos plus precises
+peut se logger avec blibli pour avoir les infos de son compte.
 
 
 ## Components
 
-- [boz-project-front](https://github.com/K-You/boz-project-front) : web frontend
-- [boz-project-back](https://github.com/K-You/boz-project-back)  : backend API
-- [boz-project-mobile](https://github.com/K-You/boz-project-mobile)  : mobile app 
+- [eldow-project-front](https://github.com/K-You/eldow-project-front) : web frontend
+- [eldow-project-back](https://github.com/K-You/eldow-project-back)  : backend API
+- [eldow-project-job](https://github.com/K-You/eldow-project-job)  : backend Jobs
+
+
+## Architecture
+ 
+                            ((BattleNet API))
+                           /       |    
+                          /      [Job]
+                         /         |
+    ReactJs -> [GQL][NodeJs] -> (MongoDB)  | Confs, infos Wow
+                             -> (Postgres) | User 
+
+## Plan de developpement
+
+1) Api Node + GQL serveur + https
+2) K8s 
+3) MongoDB + confs
+4) Requests BattleNet + insertion de data dans Mongo
+5) Frontend (ReactJs / VueJs (?)) + https --> MVP
+6) Postgres + User info
+7) Authentication users
+8) Auto deploy des confs / versionning et CI clean
+9) Jobs(refresh des data statics de l'API)
+
+
+
