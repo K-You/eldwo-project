@@ -17,9 +17,8 @@ peut se logger avec blibli pour avoir les infos de son compte.
 
 ## Components
 
-- [eldow-project-front](https://github.com/K-You/eldow-project-front) : web frontend
-- [eldow-project-back](https://github.com/K-You/eldow-project-back)  : backend API
-- [eldow-project-job](https://github.com/K-You/eldow-project-job)  : backend Jobs
+- [eldwo-project-front](https://github.com/K-You/eldwo-project-front) : web frontend
+- [eldwo-project-back](https://github.com/K-You/eldwo-project-back)  : backend API
 
 
 ## Architecture
@@ -41,7 +40,6 @@ peut se logger avec blibli pour avoir les infos de son compte.
 6) Postgres + User info
 7) Authentication users
 8) Auto deploy des confs / versionning et CI clean
-9) Jobs(refresh des data statics de l'API)
 
 
 
